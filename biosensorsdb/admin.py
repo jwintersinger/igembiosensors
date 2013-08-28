@@ -2,7 +2,18 @@ import biosensorsdb.models
 from django.contrib import admin
 
 class ProjectAdmin(admin.ModelAdmin):
-  search_fields = ['team__name', 'year', 'title', 'abstract', 'inputs__name', 'outputs__name', 'tags__name']
+  search_fields = [
+   'team__name',
+   'year',
+   'title',
+   'abstract',
+   'track__name',
+   'inputs__name',
+   'outputs__name',
+   'application__name',
+   'results__result',
+   'tags__name',
+ ]
 
 admin.site.register(biosensorsdb.models.Team)
 admin.site.register(biosensorsdb.models.SensorInput)
