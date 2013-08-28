@@ -2,37 +2,37 @@ from django.db import models
 from taggit.managers import TaggableManager
 
 class Team(models.Model):
-  name = models.CharField(max_length=100)
+  name = models.CharField(max_length=100, unique=True)
 
   def __str__(self):
     return self.name
 
 class SensorInput(models.Model):
-  name = models.CharField(max_length=100)
+  name = models.CharField(max_length=100, unique=True)
 
   def __str__(self):
     return self.name
 
 class SensorOutput(models.Model):
-  name = models.CharField(max_length=100)
+  name = models.CharField(max_length=100, unique=True)
 
   def __str__(self):
     return self.name
 
 class Track(models.Model):
-  name = models.CharField(max_length=100)
+  name = models.CharField(max_length=100, unique=True)
 
   def __str__(self):
     return self.name
 
 class Application(models.Model):
-  name = models.CharField(max_length=100)
+  name = models.CharField(max_length=100, unique=True)
 
   def __str__(self):
     return self.name
 
 class CompetitionResult(models.Model):
-  result = models.CharField(max_length=100)
+  result = models.CharField(max_length=100, unique=True)
 
   def __str__(self):
     return self.result
