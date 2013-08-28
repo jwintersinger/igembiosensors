@@ -1,4 +1,5 @@
 from django.db import models
+from taggit.managers import TaggableManager
 
 class Team(models.Model):
   name = models.CharField(max_length=100)
@@ -46,7 +47,7 @@ class Project(models.Model):
   outputs = models.ManyToManyField(SensorOutput)
   application = models.ForeignKey(Application)
   results = models.ManyToManyField(CompetitionResult)
-  #tags = pass
+  tags = TaggableManager()
 
   def __str__(self):
     return '%s %s' % (self.team, self.year)
