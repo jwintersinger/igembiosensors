@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'biosensorsdb',
     'taggit',
     'south',
+    'widget_tweaks',
 )
 
 MIDDLEWARE_CLASSES = (
