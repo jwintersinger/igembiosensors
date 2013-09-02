@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'biosensorsdb',
     'taggit',
+    'south',
 )
 
 MIDDLEWARE_CLASSES = (
