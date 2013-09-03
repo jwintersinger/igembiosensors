@@ -36,7 +36,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'biosensorsdb',
     'taggit',
-    'south',
     'widget_tweaks',
 )
 

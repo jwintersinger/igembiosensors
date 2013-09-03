@@ -9,6 +9,7 @@ class ProjectForm(ModelForm):
       'team',
       'year',
       'title',
+      'category',
       'abstract',
       'track',
       'inputs',

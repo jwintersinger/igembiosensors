@@ -6,6 +6,7 @@ class ProjectAdmin(admin.ModelAdmin):
    'team__name',
    'year',
    'title',
+   'category__name',
    'abstract',
    'track__name',
    'inputs__name',
@@ -16,6 +17,7 @@ class ProjectAdmin(admin.ModelAdmin):
  ]
 
 admin.site.register(biosensorsdb.models.Team)
+admin.site.register(biosensorsdb.models.Category)
 admin.site.register(biosensorsdb.models.SensorInput)
 admin.site.register(biosensorsdb.models.SensorOutput)
 admin.site.register(biosensorsdb.models.Track)

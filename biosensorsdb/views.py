@@ -11,10 +11,19 @@ def index(request):
   form.is_valid()
   form_data = form.cleaned_data
 
+  # Non-required types with multiple potential values will appear in
+  # form.cleaned_data as empty lists. We must remove these, as they otherwise
+  # mean we will always receive an empty result set (as no element can be
+  # within the empty list).
+  for filter_type in ('results', 'tags'):
+    if not form_data[filter_type]:
+      del form_data[filter_type]
+
   filter_types = {
     'team': 'exact',
     'year': 'iexact',
     'title': 'icontains',
+    'category': 'exact',
     'abstract': 'icontains',
     'track': 'exact',
     'inputs': 'in',
@@ -33,7 +42,9 @@ def index(request):
     projects = projects.filter(**kwargs)
 
   # Filter on tags.
-  if 'tags' in form_data:
+  # If no tags exist in DB, skip this operation -- otherwise, reduce() will
+  # throw exception because one will be reducing empty set.
+  if 'tags' in form_data and Tag.objects.count() > 0:
     tag_filters = []
     for tag in form_data['tags']:
       tag_filters.append(Q(name__icontains=tag))

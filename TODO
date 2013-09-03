@@ -1,2 +1,5 @@
 Change tag format -- show list of tags or autocomplete
 Import existing data from Google Docs
+Add edit/delete link beside each project for authed users
+Add admin panel link to main page
+Add button to search form that will make list empty

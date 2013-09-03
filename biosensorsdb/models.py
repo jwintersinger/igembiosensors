@@ -47,7 +47,7 @@ class Project(models.Model):
   team = models.ForeignKey(Team)
   year = models.IntegerField()
   title = models.CharField(max_length=100)
-  category = models.CharField(max_length=100)
+  category = models.ForeignKey(Category)
   abstract = models.TextField()
   track = models.ForeignKey(Track)
   inputs = models.ManyToManyField(SensorInput)
