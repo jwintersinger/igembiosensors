@@ -17,7 +17,7 @@ def index(request):
   # field, rather than *all* results (regardless of that field's value), as the
   # user intended.
   print form_data
-  for filter_type in ('track', 'results', 'tags'):
+  for filter_type in ('track', 'results', 'awards', 'tags'):
     if not form_data[filter_type]:
       del form_data[filter_type]
 
@@ -31,6 +31,7 @@ def index(request):
     'inputs': 'in',
     'outputs': 'in',
     'application': 'exact',
+    'awards': 'exact',
     'results': 'in'
   }
 

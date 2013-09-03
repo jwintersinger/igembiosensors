@@ -16,7 +16,8 @@ class ProjectForm(ModelForm):
       'outputs',
       'application',
       'results',
-      'tags'
+      'awards',
+      'tags',
     ]
     widgets = {
       'abstract': TextInput()

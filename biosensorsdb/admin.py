@@ -13,6 +13,7 @@ class ProjectAdmin(admin.ModelAdmin):
    'outputs__name',
    'application__name',
    'results__result',
+   'awards__name',
    'tags__name',
  ]
 
@@ -23,4 +24,5 @@ admin.site.register(biosensorsdb.models.SensorOutput)
 admin.site.register(biosensorsdb.models.Track)
 admin.site.register(biosensorsdb.models.Application)
 admin.site.register(biosensorsdb.models.CompetitionResult)
+admin.site.register(biosensorsdb.models.Award)
 admin.site.register(biosensorsdb.models.Project, ProjectAdmin)

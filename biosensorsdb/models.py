@@ -43,6 +43,12 @@ class CompetitionResult(models.Model):
   def __str__(self):
     return self.result
 
+class Award(models.Model):
+  name = models.CharField(max_length=100, unique=True)
+
+  def __str__(self):
+    return self.name
+
 class Project(models.Model):
   team = models.ForeignKey(Team)
   year = models.IntegerField()
@@ -50,11 +56,12 @@ class Project(models.Model):
   wiki_url = models.URLField()
   category = models.ForeignKey(Category)
   abstract = models.TextField()
-  track = models.ForeignKey(Track, blank=True, null=True)
   inputs = models.ManyToManyField(SensorInput)
   outputs = models.ManyToManyField(SensorOutput)
   application = models.ForeignKey(Application)
+  track = models.ForeignKey(Track, blank=True, null=True)
   results = models.ManyToManyField(CompetitionResult, blank=True)
+  awards = models.ManyToManyField(Award, blank=True)
   tags = TaggableManager(blank=True)
 
   def __str__(self):
