@@ -95,12 +95,12 @@
                 <td><a href="{{ project.wiki_url }}">{{ project.title }}</a></td>
                 <td>{{ project.category }}</td>
                 <td class="abstract" >{{ project.abstract }}</td>
-                <td>{{ project.track }}</td>
+                <td>{% if project.track %}{{ project.track }}{% else %}N/A{% endif %}</td>
                 <td>{{ project.inputs.all|join:',' }}</td>
                 <td>{{ project.outputs.all|join:', ' }}</td>
                 <td>{{ project.application }}</td>
-                <td>{{ project.results.all|join:', ' }}</td>
-                <td>{{ project.tags.all|join:', ' }}</td>
+                <td>{% if project.results.all %}{{ project.results.all|join:', ' }}{% else %}N/A{% endif %}</td>
+                <td>{% if project.tags.all %}{{ project.tags.all|join:', ' }}{% else %}N/A{% endif %}</td>
               </tr>
             {% endfor %}
             </tbody>
