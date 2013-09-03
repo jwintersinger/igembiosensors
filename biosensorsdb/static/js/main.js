@@ -16,6 +16,9 @@ $(function() {
   $('#projects th').append('<span class="glyphicon asc-icon glyphicon-circle-arrow-down"></span>' +
     '<span class="glyphicon desc-icon glyphicon-circle-arrow-up"></span>');
 
+  // Set initial sort on year.
+  $('#projects th').eq(1).click();
+
   // Truncate abstracts.
   var truncate_length = 76;
   $('#projects .abstract').each(function() {
