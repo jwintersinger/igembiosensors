@@ -1,3 +1,16 @@
-th {
+#projects th {
   cursor: pointer;
+}
+
+#projects th .glyphicon {
+  display: none;
+  padding-left: 5px;
+}
+
+#projects th.sorting-asc .asc-icon {
+  display: inline;
+}
+
+#projects th.sorting-desc .desc-icon {
+  display: inline;
 }
