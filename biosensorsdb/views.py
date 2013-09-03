@@ -16,7 +16,6 @@ def index(request):
   # otherwise mean we will *only* receive results with an empty value for the
   # field, rather than *all* results (regardless of that field's value), as the
   # user intended.
-  print form_data
   for filter_type in ('track', 'results', 'awards', 'tags'):
     if not form_data[filter_type]:
       del form_data[filter_type]
