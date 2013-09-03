@@ -40,7 +40,7 @@ iGEM Biosensors DB
         python2 manage.py runserver 0.0.0.0:8000
         # Now, access http://<your_ip>:8000 in your web browser.
         
-6. Set up additional user accounts. Access http://<your_ip>:8000/admin/ in your web browser. You have two options:
+6. Set up additional user accounts. Access `http://<your_ip>:8000/admin/` in your web browser. You have two options:
     1. Make additional users superusers. This means that these users will be able to add new users themselves.
         1. Click the Add link next to Users under the Auth heading.
         2. Enter a username, password, and password confirmation, then click Save.
@@ -63,7 +63,7 @@ iGEM Biosensors DB
             1. From the administration home, Click the Add link next to Users under the Auth heading.
             2. Enter a username, password, and password confirmation, then click Save.
             3. On the next screen, under the Permissions heading, check `Staff status` checkbox.
-            4. Under `Avaialble groups`, select the group you created in the
+            4. Under `Available groups`, select the group you created in the
                previous step, then click the right arrow icon to add the user to
                this group.
             5. Click Save.
