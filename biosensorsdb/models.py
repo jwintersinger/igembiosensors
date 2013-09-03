@@ -47,6 +47,7 @@ class Project(models.Model):
   team = models.ForeignKey(Team)
   year = models.IntegerField()
   title = models.CharField(max_length=100)
+  wiki_url = models.URLField()
   category = models.ForeignKey(Category)
   abstract = models.TextField()
   track = models.ForeignKey(Track)

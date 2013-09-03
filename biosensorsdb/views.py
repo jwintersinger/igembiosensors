@@ -32,7 +32,7 @@ def index(request):
     'results': 'in'
   }
 
-  projects = Project.objects.all()
+  projects = Project.objects.all().order_by('-year', 'team__name')
 
   # Filter on all fields except tags.
   for filter_name, filter_type in filter_types.items():
