@@ -1,5 +1,7 @@
 import biosensorsdb.models
 from django.contrib import admin
+from django.db import models
+from django.forms import SelectMultiple
 
 class ProjectAdmin(admin.ModelAdmin):
   search_fields = [
@@ -15,7 +17,12 @@ class ProjectAdmin(admin.ModelAdmin):
    'results__result',
    'awards__name',
    'tags__name',
- ]
+  ]
+  formfield_overrides = {
+    models.ManyToManyField: {
+      'widget': SelectMultiple(attrs={'size': '15'}),
+    }
+  }
 
 admin.site.register(biosensorsdb.models.Team)
 admin.site.register(biosensorsdb.models.Category)
