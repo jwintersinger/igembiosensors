@@ -16,7 +16,8 @@ $(function() {
   $('#projects th').append('<span class="glyphicon asc-icon glyphicon-circle-arrow-down"></span>' +
     '<span class="glyphicon desc-icon glyphicon-circle-arrow-up"></span>');
 
-  // Set initial sort on year.
+  // Set initial sort on year. Do twice to get desc sort.
+  $('#projects th').eq(1).click();
   $('#projects th').eq(1).click();
 
   // Truncate abstracts.
