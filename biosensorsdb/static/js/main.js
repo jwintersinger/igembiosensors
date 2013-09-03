@@ -1,6 +1,6 @@
 function truncate(elem, length) {
   elem = $(elem);
-  elem.text(elem.text().substring(length) + '...');
+  elem.text(elem.text().substring(0, length) + '...');
   elem.data('truncated', true);
 }
 
