@@ -1,3 +1,10 @@
+// Taken from http://stackoverflow.com/a/680252/1691611.
+function reset_form($form) {
+  $form.find('input:text, input:password, input:file, input[type=number], select, textarea').val('');
+  $form.find('input:radio, input:checkbox')
+    .removeAttr('checked').removeAttr('selected');
+}
+
 function truncate(elem, length) {
   elem = $(elem);
   elem.text(elem.text().substring(0, length) + '...');
@@ -34,5 +41,11 @@ $(function() {
     } else {
       truncate(abs, truncate_length);
     }
+  });
+
+  // Enable projects filter reset.
+  $('#reset-projects-filter').click(function() {
+    var form = $(this).parents('form');
+    reset_form(form);
   });
 });
