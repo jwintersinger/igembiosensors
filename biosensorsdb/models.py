@@ -25,6 +25,12 @@ class Track(models.Model):
   def __str__(self):
     return self.name
 
+class Category(models.Model):
+  name = models.CharField(max_length=100, unique=True)
+
+  def __str__(self):
+    return self.name
+
 class Application(models.Model):
   name = models.CharField(max_length=100, unique=True)
 
@@ -41,6 +47,7 @@ class Project(models.Model):
   team = models.ForeignKey(Team)
   year = models.IntegerField()
   title = models.CharField(max_length=100)
+  category = models.CharField(max_length=100)
   abstract = models.TextField()
   track = models.ForeignKey(Track)
   inputs = models.ManyToManyField(SensorInput)

@@ -1,5 +1,2 @@
-Change tag format -- show list
-Enforce required fields
-Add category
-Add advanced search
-Import data
+Change tag format -- show list of tags or autocomplete
+Import existing data from Google Docs
