@@ -17,14 +17,28 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="page-header">
-        <h1>iGEM Biosensors DB</h1>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">iGEM Biosensors DB</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/admin/">Admin</a></li>
+          </ul>
+        </div>
       </div>
+    </div>
 
+    <div class="container">
       <div class="row">
-        <div class="col-sm-8">
-          <table id="projects" class="table table-striped table-hover table-responsive">
+        <div class="col-sm-8 table-responsive">
+          <table id="projects" class="table table-striped table-hover">
             <thead>
               <tr>
                 <th data-sort="string-ins">Team</th>
