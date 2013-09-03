@@ -37,7 +37,23 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 table-responsive">
+        <div class="col-sm-4">
+          <form role="form" class="">
+          {% for field in form %}
+            <div class="form-group">
+              {{ field.label_tag }}
+              {% render_field field class+="form-control" %}
+              <p class="help-block">{{ field.help_text }}</p>
+            </div>
+          {% endfor %}
+
+            <button type="submit" class="btn btn-default btn-lg">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 table-responsive">
           <table id="projects" class="table table-striped table-hover">
             <thead>
               <tr>
@@ -71,20 +87,6 @@
             {% endfor %}
             </tbody>
           </table>
-        </div>
-
-        <div class="col-sm-4">
-          <form role="form" class="">
-          {% for field in form %}
-            <div class="form-group">
-              {{ field.label_tag }}
-              {% render_field field class+="form-control" %}
-              <p class="help-block">{{ field.help_text }}</p>
-            </div>
-          {% endfor %}
-
-            <button type="submit" class="btn btn-default btn-lg">Search</button>
-          </form>
         </div>
       </div>
     </div>
