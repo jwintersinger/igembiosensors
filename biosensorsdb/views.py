@@ -21,7 +21,7 @@ def index(request):
 
   filter_types = {
     'team': 'exact',
-    'year': 'iexact',
+    'year': 'exact',
     'title': 'icontains',
     'category': 'exact',
     'abstract': 'icontains',
