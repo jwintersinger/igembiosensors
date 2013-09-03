@@ -50,7 +50,7 @@ class Project(models.Model):
   wiki_url = models.URLField()
   category = models.ForeignKey(Category)
   abstract = models.TextField()
-  track = models.ForeignKey(Track)
+  track = models.ForeignKey(Track, blank=True, null=True)
   inputs = models.ManyToManyField(SensorInput)
   outputs = models.ManyToManyField(SensorOutput)
   application = models.ForeignKey(Application)
