@@ -97,12 +97,12 @@
                 <td>{{ project.category }}</td>
                 <td class="abstract" >{{ project.abstract }}</td>
                 <td>{% if project.track %}{{ project.track }}{% else %}N/A{% endif %}</td>
-                <td>{{ project.inputs.all|join:',' }}</td>
-                <td>{{ project.outputs.all|join:', ' }}</td>
+                <td>{{ project.inputs.all|join:'<br />' }}</td>
+                <td>{{ project.outputs.all|join:'<br />' }}</td>
                 <td>{{ project.application }}</td>
-                <td>{% if project.results.all %}{{ project.results.all|join:', ' }}{% else %}N/A{% endif %}</td>
-                <td>{% if project.awards.all %}{{ project.awards.all|join:', ' }}{% else %}N/A{% endif %}</td>
-                <td>{% if project.tags.all %}{{ project.tags.all|join:', ' }}{% else %}N/A{% endif %}</td>
+                <td>{% if project.results.all %}{{ project.results.all|join:'<br />' }}{% else %}N/A{% endif %}</td>
+                <td>{% if project.awards.all %}{{ project.awards.all|join:'<br />' }}{% else %}N/A{% endif %}</td>
+                <td>{% if project.tags.all %}{{ project.tags.all|join:'<br />' }}{% else %}N/A{% endif %}</td>
               </tr>
             {% endfor %}
             </tbody>
