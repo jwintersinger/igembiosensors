@@ -46,8 +46,8 @@ class Project(models.Model):
   inputs = models.ManyToManyField(SensorInput)
   outputs = models.ManyToManyField(SensorOutput)
   application = models.ForeignKey(Application)
-  results = models.ManyToManyField(CompetitionResult)
-  tags = TaggableManager()
+  results = models.ManyToManyField(CompetitionResult, blank=True)
+  tags = TaggableManager(blank=True)
 
   def __str__(self):
     return '%s %s' % (self.team, self.year)
