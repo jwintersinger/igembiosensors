@@ -35,11 +35,6 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-12" style="text-align: right">
-      </div>
-    </div>
-
     <div class="modal fade" id="filter-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -70,7 +65,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 table-responsive">
-          <div style="text-align: right; padding-bottom: 20px">
+          <div id="filter-trigger-container">
             <a data-toggle="modal" href="#filter-modal" class="btn btn-primary btn-lg">Filter biosensors</a>
           </div>
 
@@ -80,6 +75,7 @@
                 <th data-sort="string-ins">Team</th>
                 <th data-sort="int">Year</th>
                 <th data-sort="string-ins">Title</th>
+                <th data-sort="string-ins">Category</th>
                 <th data-sort="string-ins">Abstract</th>
                 <th data-sort="string-ins">Track</th>
                 <th data-sort="string-ins">Inputs</th>
@@ -96,7 +92,8 @@
                 <td>{{ project.team }}</td>
                 <td>{{ project.year }}</td>
                 <td>{{ project.title }}</td>
-                <td>{{ project.abstract }}</td>
+                <td>{{ project.category }}</td>
+                <td class="abstract" >{{ project.abstract }}</td>
                 <td>{{ project.track }}</td>
                 <td>{{ project.inputs.all|join:',' }}</td>
                 <td>{{ project.outputs.all|join:', ' }}</td>

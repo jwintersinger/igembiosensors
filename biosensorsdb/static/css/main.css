@@ -1,4 +1,4 @@
-#projects th {
+#projects th, #projects .abstract {
   cursor: pointer;
 }
 
@@ -13,4 +13,9 @@
 
 #projects th.sorting-desc .desc-icon {
   display: inline;
+}
+
+#filter-trigger-container {
+  text-align: right;
+  padding-bottom: 20px;
 }
