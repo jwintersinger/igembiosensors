@@ -76,6 +76,7 @@
                 <th data-sort="string-ins">Team</th>
                 <th data-sort="int">Year</th>
                 <th data-sort="string-ins">Title</th>
+                <th data-sort="string-ins">Biosensor</th>
                 <th data-sort="string-ins">Category</th>
                 <th data-sort="string-ins">Abstract</th>
                 <th data-sort="string-ins">Track</th>
@@ -94,6 +95,7 @@
                 <td>{{ project.team }}</td>
                 <td>{{ project.year }}</td>
                 <td><a href="{{ project.wiki_url }}">{{ project.title }}</a></td>
+                <td>{{ project.is_biosensor|yesno:"Yes,No,Maybe" }}</td>
                 <td>{{ project.category }}</td>
                 <td class="abstract" >{{ project.abstract }}</td>
                 <td>{% if project.track %}{{ project.track }}{% else %}N/A{% endif %}</td>

@@ -8,6 +8,7 @@ class ProjectAdmin(admin.ModelAdmin):
    'team__name',
    'year',
    'title',
+   'is_biosensor',
    'category__name',
    'abstract',
    'track__name',
@@ -20,6 +21,7 @@ class ProjectAdmin(admin.ModelAdmin):
   ]
   formfield_overrides = {
     models.ManyToManyField: {
+      # Increase number of rows shown.
       'widget': SelectMultiple(attrs={'size': '15'}),
     }
   }

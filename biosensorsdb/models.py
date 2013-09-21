@@ -53,6 +53,11 @@ class Project(models.Model):
   team = models.ForeignKey(Team)
   year = models.IntegerField()
   title = models.CharField(max_length=100)
+  is_biosensor = models.BooleanField(
+    default = True,
+    verbose_name = 'Is biosensor',
+    help_text = 'Is a biosensor according to Calgary/Paris Betterncourt definition.',
+  )
   wiki_url = models.URLField()
   category = models.ForeignKey(Category)
   abstract = models.TextField()
