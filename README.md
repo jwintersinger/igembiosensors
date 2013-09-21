@@ -1,17 +1,21 @@
 iGEM Biosensors DB
 ==================
 
-1. Install Django 1.6. As this version is still in beta as of this writing, you must install via Git.
+0. Create Python 2 virtual environment for project.
 
-        git clone https://github.com/django/django.git
-        cd django
-        git checkout stable/1.6.x
-        export PYTHONPATH=$PWD
-        cd ..
+        mkdir ~/.virtualenvs
+        cd ~/.virtualenvs
+        virtualenv2 igembiosensors
+        source igembiosensors/bin/activate
+        cd -
+
+1. Install Django 1.6. As this version is still in beta as of this writing, you must install from GitHub.
+
+        pip install git+git://github.com/django/django.git@1.6b4
 
 2. Install dependencies.
 
-        pip2 install --user django-taggit django-widget-tweaks
+        pip install django-taggit django-widget-tweaks
 
 3. Clone and configure project.
 
@@ -67,3 +71,10 @@ iGEM Biosensors DB
                previous step, then click the right arrow icon to add the user to
                this group.
             5. Click Save.
+
+7. After entering production data, backup the database.
+
+        # Use --natural flag because django-taggit references contenttypes.
+        python2 manage.py dumpdata --indent=2 --natural biosensorsdb taggit > backups/biosensors_data.json
+        # To load backup, execute the following:
+        # python2 manage.py loaddata backups/biosensors_data.json
