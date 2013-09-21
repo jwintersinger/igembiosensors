@@ -1,6 +1,6 @@
 *.log
 *.pyc
-.s[a-w][a-z]
+.*.s[a-w][a-z]
 igembiosensors/settings_deployment.py
 db.sqlite3
 backups/db.sql
