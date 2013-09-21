@@ -58,7 +58,7 @@ class Project(models.Model):
     verbose_name = 'Is biosensor',
     help_text = 'Is a biosensor according to Calgary/Paris Betterncourt definition.',
   )
-  wiki_url = models.URLField()
+  wiki_url = models.URLField(verbose_name = 'Wiki URL')
   category = models.ForeignKey(Category)
   abstract = models.TextField()
   inputs = models.ManyToManyField(SensorInput)
