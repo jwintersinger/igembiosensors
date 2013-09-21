@@ -81,4 +81,8 @@ iGEM Biosensors DB
         # Use --natural flag because django-taggit references contenttypes.
         # Note that user accounts are *not* exported, thereby allowing you to
         # share your data without exposing user credentials.
+        #
+        # Note that, until the next release of django-taggit, one must fix a
+        # bug in the package before dumpdata will work, as per
+        # https://github.com/alex/django-taggit/issues/155#issuecomment-24561900.
         python2 manage.py dumpdata --indent=2 --natural biosensorsdb taggit > backups/biosensors_data.json
