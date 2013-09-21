@@ -18,3 +18,14 @@
 #filter-trigger-container {
   padding-bottom: 20px;
 }
+
+#filter-trigger-container .btn {
+  vertical-align: bottom;
+}
+
+#project-count {
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 16px;
+  padding: 8px;
+}
