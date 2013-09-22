@@ -3,8 +3,10 @@ from biosensorsdb.forms import ProjectForm, NO_BIOSENSOR_PREF
 from biosensorsdb.models import Project
 from django.db.models import Q
 from taggit.models import Tag
+from django.views.decorators.clickjacking import xframe_options_exempt
 import operator
 
+@xframe_options_exempt
 def index(request):
   form = ProjectForm(request.GET, label_suffix='')
   # Force form.cleaned_data to be created.
