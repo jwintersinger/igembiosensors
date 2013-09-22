@@ -48,4 +48,7 @@ $(function() {
     var form = $(this).parents('form');
     reset_form(form);
   });
+
+  // Enable multi-select.
+  $('select[multiple=multiple]').multiSelect();
 });
