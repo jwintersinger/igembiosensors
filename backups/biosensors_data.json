@@ -2419,7 +2419,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -2441,7 +2442,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -2474,7 +2476,8 @@
       11, 
       15
     ], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2502,7 +2505,8 @@
       13, 
       14
     ], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2524,7 +2528,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2546,7 +2551,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2568,7 +2574,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2590,7 +2597,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2612,7 +2620,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2634,7 +2643,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2656,7 +2666,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2678,7 +2689,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2703,7 +2715,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2725,7 +2738,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2012
+    "year": 2012, 
+    "is_biosensor": true
   }
 },
 {
@@ -2751,7 +2765,8 @@
     "awards": [
       9
     ], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2777,7 +2792,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2799,7 +2815,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2821,7 +2838,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2844,7 +2862,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2866,7 +2885,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2890,7 +2910,8 @@
     ], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2916,7 +2937,8 @@
     "awards": [
       11
     ], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2942,7 +2964,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2970,7 +2993,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -2992,7 +3016,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3014,7 +3039,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3036,7 +3062,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3060,7 +3087,8 @@
     ], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3082,7 +3110,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3107,7 +3136,8 @@
     ], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3134,7 +3164,8 @@
     "awards": [
       19
     ], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3156,7 +3187,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3178,7 +3210,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3203,7 +3236,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2011
+    "year": 2011, 
+    "is_biosensor": true
   }
 },
 {
@@ -3228,7 +3262,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3253,7 +3288,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3280,7 +3316,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3307,7 +3344,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3334,7 +3372,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3360,7 +3399,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3385,7 +3425,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3409,7 +3450,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3443,7 +3485,8 @@
     "awards": [
       16
     ], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3473,7 +3516,8 @@
     "awards": [
       14
     ], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3499,7 +3543,8 @@
     ], 
     "application": 3, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3526,7 +3571,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3552,7 +3598,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2007
+    "year": 2007, 
+    "is_biosensor": true
   }
 },
 {
@@ -3578,7 +3625,8 @@
     ], 
     "application": 2, 
     "awards": [], 
-    "year": 2009
+    "year": 2009, 
+    "is_biosensor": true
   }
 },
 {
@@ -3601,7 +3649,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2009
+    "year": 2009, 
+    "is_biosensor": true
   }
 },
 {
@@ -3631,7 +3680,8 @@
     "awards": [
       18
     ], 
-    "year": 2009
+    "year": 2009, 
+    "is_biosensor": true
   }
 },
 {
@@ -3654,7 +3704,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3678,7 +3729,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3700,7 +3752,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3722,7 +3775,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3744,7 +3798,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3766,7 +3821,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3789,7 +3845,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3811,7 +3868,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3833,7 +3891,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3855,7 +3914,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3877,7 +3937,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3899,7 +3960,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3921,7 +3983,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3943,7 +4006,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3965,7 +4029,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -3987,7 +4052,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4009,7 +4075,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4031,7 +4098,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4053,7 +4121,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4075,7 +4144,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4097,7 +4167,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4119,7 +4190,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4141,7 +4213,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4163,7 +4236,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4185,7 +4259,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4207,7 +4282,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4229,7 +4305,8 @@
     "results": [], 
     "application": 1, 
     "awards": [], 
-    "year": 2013
+    "year": 2013, 
+    "is_biosensor": true
   }
 },
 {
@@ -4251,7 +4328,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4273,7 +4351,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4295,7 +4374,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4319,7 +4399,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4342,7 +4423,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4364,7 +4446,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4387,7 +4470,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4409,7 +4493,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4432,7 +4517,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4454,7 +4540,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4477,7 +4564,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4500,7 +4588,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4523,7 +4612,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4545,7 +4635,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4568,7 +4659,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4593,7 +4685,8 @@
     "awards": [
       20
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4617,7 +4710,8 @@
     "awards": [
       21
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4640,7 +4734,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4663,7 +4758,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4686,7 +4782,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4714,7 +4811,8 @@
       22, 
       23
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4737,7 +4835,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4764,7 +4863,8 @@
       25, 
       26
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4790,7 +4890,8 @@
       27, 
       28
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4813,7 +4914,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4836,7 +4938,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4860,7 +4963,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4884,7 +4988,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4911,7 +5016,8 @@
       29, 
       30
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4935,7 +5041,8 @@
     "awards": [
       31
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4957,7 +5064,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -4981,7 +5089,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5003,7 +5112,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5025,7 +5135,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5048,7 +5159,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5071,7 +5183,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5095,7 +5208,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5121,7 +5235,8 @@
     "awards": [
       14
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5146,7 +5261,8 @@
       22, 
       32
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5168,7 +5284,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5194,7 +5311,8 @@
       22, 
       33
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5218,7 +5336,8 @@
     "awards": [
       34
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5242,7 +5361,8 @@
     "results": [], 
     "application": 3, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5265,7 +5385,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5288,7 +5409,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5315,7 +5437,8 @@
     "awards": [
       35
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5340,7 +5463,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5363,7 +5487,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5388,7 +5513,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5412,7 +5538,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5434,7 +5561,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5459,7 +5587,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5485,7 +5614,8 @@
     "awards": [
       36
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5511,7 +5641,8 @@
     "awards": [
       37
     ], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -5534,7 +5665,8 @@
     "results": [], 
     "application": 2, 
     "awards": [], 
-    "year": 2008
+    "year": 2008, 
+    "is_biosensor": true
   }
 },
 {
@@ -6563,78 +6695,6 @@
       "project"
     ], 
     "object_id": 7
-  }
-},
-{
-  "pk": 50, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 24, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 6
-  }
-},
-{
-  "pk": 51, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 25, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 6
-  }
-},
-{
-  "pk": 52, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 26, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 6
-  }
-},
-{
-  "pk": 53, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 27, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 6
-  }
-},
-{
-  "pk": 54, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 28, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 6
-  }
-},
-{
-  "pk": 55, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 29, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 6
   }
 },
 {
@@ -7883,6 +7943,78 @@
       "project"
     ], 
     "object_id": 27
+  }
+},
+{
+  "pk": 342, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 24, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 6
+  }
+},
+{
+  "pk": 343, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 25, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 6
+  }
+},
+{
+  "pk": 344, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 26, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 6
+  }
+},
+{
+  "pk": 345, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 27, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 6
+  }
+},
+{
+  "pk": 346, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 28, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 6
+  }
+},
+{
+  "pk": 347, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 29, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 6
   }
 }
 ]
