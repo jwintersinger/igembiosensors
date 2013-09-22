@@ -3,6 +3,9 @@ function reset_form($form) {
   $form.find('input:text, input:password, input:file, input[type=number], select, textarea').val('');
   $form.find('input:radio, input:checkbox')
     .removeAttr('checked').removeAttr('selected');
+
+  // Without this, multi-select won't reset.
+  $form.find('select[multiple=multiple]').multiSelect('deselect_all');
 }
 
 function truncate(elem, length) {
