@@ -4,11 +4,17 @@ from taggit.managers import TaggableManager
 class Team(models.Model):
   name = models.CharField(max_length=100, unique=True)
 
+  class Meta:
+    ordering = ['name']
+
   def __str__(self):
     return self.name
 
 class SensorInput(models.Model):
   name = models.CharField(max_length=100, unique=True)
+
+  class Meta:
+    ordering = ['name']
 
   def __str__(self):
     return self.name
@@ -16,11 +22,17 @@ class SensorInput(models.Model):
 class SensorOutput(models.Model):
   name = models.CharField(max_length=100, unique=True)
 
+  class Meta:
+    ordering = ['name']
+
   def __str__(self):
     return self.name
 
 class Track(models.Model):
   name = models.CharField(max_length=100, unique=True)
+
+  class Meta:
+    ordering = ['name']
 
   def __str__(self):
     return self.name
@@ -28,11 +40,17 @@ class Track(models.Model):
 class Category(models.Model):
   name = models.CharField(max_length=100, unique=True)
 
+  class Meta:
+    ordering = ['name']
+
   def __str__(self):
     return self.name
 
 class Application(models.Model):
   name = models.CharField(max_length=100, unique=True)
+
+  class Meta:
+    ordering = ['name']
 
   def __str__(self):
     return self.name
@@ -40,11 +58,17 @@ class Application(models.Model):
 class CompetitionResult(models.Model):
   result = models.CharField(max_length=100, unique=True)
 
+  class Meta:
+    ordering = ['result']
+
   def __str__(self):
     return self.result
 
 class Award(models.Model):
   name = models.CharField(max_length=100, unique=True)
+
+  class Meta:
+    ordering = ['name']
 
   def __str__(self):
     return self.name
@@ -68,6 +92,9 @@ class Project(models.Model):
   results = models.ManyToManyField(CompetitionResult, blank=True)
   awards = models.ManyToManyField(Award, blank=True)
   tags = TaggableManager(blank=True)
+
+  class Meta:
+    ordering = ['-year', 'team__name']
 
   def __str__(self):
     return '%s %s' % (self.team, self.year)
