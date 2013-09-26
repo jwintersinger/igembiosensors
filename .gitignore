@@ -4,3 +4,4 @@
 igembiosensors/settings_deployment.py
 db.sqlite3
 backups/db.sql*
+static/
