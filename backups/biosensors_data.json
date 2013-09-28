@@ -8398,6 +8398,7 @@
   "fields": {
     "category": 1, 
     "inputs": [
+      202, 
       84, 
       9
     ], 
@@ -8405,7 +8406,8 @@
     "title": "Synthetic and Post-Natural Ecologies", 
     "track": 8, 
     "outputs": [
-      81
+      81, 
+      91
     ], 
     "abstract": "In our second year as artists and designers at IGEM, we have decided to investigate the consequences of creating a Synthetic Ecology: an ecosystem in which organisms designed for a techno-scientific environment interact with organisms in the wild. C.elegans live on a diet of a variety of bacteria, E.coli being such strain. Genetically-modified E.coli can be fed to C.elegans which can then express any double stranded RNA of interest. The dsRNA can knock off specific genes in C.elegans. In our experiments, we are using C.Elegans as a marker to expres a range of external factors in two sets, temperature and IPTG. On a utilitarian level, our project investigates the use of C.elegans as a visual marker for changes in environmental conditions. On a more critical level, C.elegans is used to study the consequences of interactions between engineered organisms and the 'natural' world.", 
     "team": 175, 
@@ -9500,105 +9502,6 @@
     ], 
     "abstract": "We daily double-click the icons to open the files or to exert the program: this is clearly distinguished from the single click, which is often for selecting or highlighting the program. This year, iGEM CHIBA is constructing genetic double-click system whose output is released only when the input (inducing agent) is given twice within a limited time. To discriminate double-click from two separated single-clicks, the 1st input is to be memorized temporarily. If the 2nd input is added before the memory gets lost, output will be produced. If the 2nd input is not added within the given time, the system will be reset to the original state. This mechanism could work as a sort of safety device; by requiring the 2nd \u2018confirmation\u2019 input, one can drastically reduce, or even eliminate, the frequency of false-inputs. This system could be useful in operating the potent or potentially-hazardous biochemical processes.", 
     "team": 77, 
-    "results": [
-      10
-    ], 
-    "application": 4, 
-    "awards": [], 
-    "year": 2010, 
-    "is_biosensor": true
-  }
-},
-{
-  "pk": 228, 
-  "model": "biosensorsdb.project", 
-  "fields": {
-    "category": 8, 
-    "inputs": [
-      202, 
-      84, 
-      9
-    ], 
-    "wiki_url": "http://2010.igem.org/Team:ArtScienceBangalore", 
-    "title": "Synthetic and Post-Natural Ecologies", 
-    "track": 8, 
-    "outputs": [
-      91
-    ], 
-    "abstract": "In our second year as artists and designers at IGEM, we have decided to investigate the consequences of creating a Synthetic Ecology: an ecosystem in which organisms designed for a techno-scientific environment interact with organisms in the wild. C.elegans live on a diet of a variety of bacteria, E.coli being such strain. Genetically-modified E.coli can be fed to C.elegans which can then express any double stranded RNA of interest. The dsRNA can knock off specific genes in C.elegans. In our experiments, we are using C.Elegans as a marker to expres a range of external factors in two sets, temperature and IPTG. On a utilitarian level, our project investigates the use of C.elegans as a visual marker for changes in environmental conditions. On a more critical level, C.elegans is used to study the consequences of interactions between engineered organisms and the 'natural' world.", 
-    "team": 175, 
-    "results": [], 
-    "application": 2, 
-    "awards": [], 
-    "year": 2010, 
-    "is_biosensor": true
-  }
-},
-{
-  "pk": 229, 
-  "model": "biosensorsdb.project", 
-  "fields": {
-    "category": 7, 
-    "inputs": [
-      26
-    ], 
-    "wiki_url": "http://2010.igem.org/Team:BCCS-Bristol", 
-    "title": "agrEcoli: Smarter farming through bacterial soil fertility sensors", 
-    "track": 6, 
-    "outputs": [
-      30, 
-      46
-    ], 
-    "abstract": "Fertiliser production is a major contributor to global carbon emissions, and excess fertiliser can cause immense damage to local ecosystems. Our lab has developed and characterised a cheap, versatile soil fertility sensor based on an E.coli chassis. It expresses fluorescent signals upon nutrient detection, producing a high-resolution nutrient distribution map of arable land. The ratio of two fluorescent signals allows farmers to quantify soil nutrient content. agrEcoli bacteria, encapsulated within a gel container to improve visibility and prevent escape, have been shown to work on soil in lab conditions. We have explored the marketing of our device, considering public perceptions of synthetic biology. BSim, our prize-winning modelling framework, has been extended to analyse our new biobricks\u2019 behaviour within gel capsules. In addition, a new interface for BSim has improved its accessibility to the wider synthetic biology community, facilitating collaboration. agrEcoli optimises fertiliser use, saving farmers' money and reducing environmental damage.", 
-    "team": 92, 
-    "results": [], 
-    "application": 1, 
-    "awards": [], 
-    "year": 2010, 
-    "is_biosensor": true
-  }
-},
-{
-  "pk": 230, 
-  "model": "biosensorsdb.project", 
-  "fields": {
-    "category": 5, 
-    "inputs": [
-      203
-    ], 
-    "wiki_url": "http://2010.igem.org/Team:Bielefeld-Germany", 
-    "title": "MARSS - Modulated Acetosyringone Receptor Sensor System Defining Spiciness since 2010", 
-    "track": 6, 
-    "outputs": [
-      54
-    ], 
-    "abstract": "The iGEM-Team Bielefeld is going to modulate an Agrobacteria receptor in Escherichia coli in order to detect capsaicin which is responsible for the hot taste of chilies. The intention is to make the spiciness in fare visible using a gradient light signal. The original receptor is the acetosyringone detection system of Agrobacterium tumefaciens. By using directed evolution, we aim to modulate the receptor binding domain to enable the interaction with similar phenolic substances like capsaicin. Brought into E. coli, this modulated system will induce light effects of different intensities - depending on the concentration of capsaicin respectively the spiciness of the sample. The capsaicin detection is a proof of principle concept. We aim to establish a system, which is characterized by a high sensitivity and specifity and is capable to replace slow and high priced diagnostics or analytic methods. The targets of the system could be allergy-triggers, explosives and toxins.", 
-    "team": 31, 
-    "results": [
-      10
-    ], 
-    "application": 1, 
-    "awards": [], 
-    "year": 2010, 
-    "is_biosensor": true
-  }
-},
-{
-  "pk": 231, 
-  "model": "biosensorsdb.project", 
-  "fields": {
-    "category": 3, 
-    "inputs": [
-      204
-    ], 
-    "wiki_url": "http://2010.igem.org/Team:BIOTEC_Dresden", 
-    "title": "SensorBricks", 
-    "track": 4, 
-    "outputs": [
-      30
-    ], 
-    "abstract": "SensorBricks is a reliable and modular system for antigen recognition, signal amplification and quantification. Initial steps of SensorBricks will focus on the detection of CD33 and other leukemic markers to increase diagnostic stringency. There are three major components in SensorBricks: (i) monoclonal antibodies that bind to an antigen of interest, (ii) a LuxI-Protein A fusion construct which non-specifically binds antibodies and produces the autoinducer N- Acyl homoserine lactone (AHL), and (iii) a Escherichia coli based biosensor which strongly amplifies the production of a fluorescence protein in the presence of AHL. By coupling signal detection to a genetic circuit, we would be able to amplify the signal in a quantifiable manner, allowing the identification of cancer markers expressed in minute quantities.", 
-    "team": 177, 
     "results": [
       10
     ], 
@@ -14872,18 +14775,6 @@
   }
 },
 {
-  "pk": 554, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 227, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 185
-  }
-},
-{
   "pk": 560, 
   "model": "taggit.taggeditem", 
   "fields": {
@@ -15976,150 +15867,6 @@
   }
 },
 {
-  "pk": 663, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 312, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 228
-  }
-},
-{
-  "pk": 664, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 313, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 228
-  }
-},
-{
-  "pk": 665, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 311, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 228
-  }
-},
-{
-  "pk": 666, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 33, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 229
-  }
-},
-{
-  "pk": 667, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 263, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 229
-  }
-},
-{
-  "pk": 668, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 314, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 230
-  }
-},
-{
-  "pk": 669, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 315, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 230
-  }
-},
-{
-  "pk": 670, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 316, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 230
-  }
-},
-{
-  "pk": 671, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 317, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 230
-  }
-},
-{
-  "pk": 672, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 320, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 231
-  }
-},
-{
-  "pk": 673, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 318, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 231
-  }
-},
-{
-  "pk": 674, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 319, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 231
-  }
-},
-{
   "pk": 675, 
   "model": "taggit.taggeditem", 
   "fields": {
@@ -16201,6 +15948,162 @@
       "project"
     ], 
     "object_id": 240
+  }
+},
+{
+  "pk": 684, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 320, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 187
+  }
+},
+{
+  "pk": 685, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 318, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 187
+  }
+},
+{
+  "pk": 686, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 319, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 187
+  }
+},
+{
+  "pk": 687, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 314, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 186
+  }
+},
+{
+  "pk": 688, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 315, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 186
+  }
+},
+{
+  "pk": 689, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 316, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 186
+  }
+},
+{
+  "pk": 690, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 317, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 186
+  }
+},
+{
+  "pk": 691, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 33, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 185
+  }
+},
+{
+  "pk": 692, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 227, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 185
+  }
+},
+{
+  "pk": 693, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 263, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 185
+  }
+},
+{
+  "pk": 694, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 312, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 184
+  }
+},
+{
+  "pk": 695, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 313, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 184
+  }
+},
+{
+  "pk": 696, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 311, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 184
   }
 }
 ]
