@@ -18,11 +18,9 @@ from settings_deployment import *
 SECRET_KEY = '1-96lujxzc6om!cmv$zx(@8p2_7+^x!u_^_4qk#5i(-#rvksk)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-TEMPLATE_DEBUG = True
-
-ALLOWED_HOSTS = []
+DEBUG          = False
+TEMPLATE_DEBUG = DEBUG
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -71,6 +69,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/dev/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 TEMPLATE_DIRS = (
   os.path.join(BASE_DIR, 'templates').replace('\\', '/'),
