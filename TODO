@@ -1,2 +1,4 @@
 Add edit/delete link beside each project for authed users
 Change tag format -- show list of tags or autocomplete
+
+Make header bar extend across full page width
