@@ -3451,6 +3451,20 @@
   }
 },
 {
+  "pk": 16, 
+  "model": "biosensorsdb.competitionresult", 
+  "fields": {
+    "result": "Regional Finalist, Latin America"
+  }
+},
+{
+  "pk": 17, 
+  "model": "biosensorsdb.competitionresult", 
+  "fields": {
+    "result": "Regional Finalist, North America"
+  }
+},
+{
   "pk": 7, 
   "model": "biosensorsdb.award", 
   "fields": {
@@ -3678,7 +3692,7 @@
   "pk": 40, 
   "model": "biosensorsdb.award", 
   "fields": {
-    "name": "Best wiki-Asia"
+    "name": "Best Wiki, Asia"
   }
 },
 {
@@ -3724,6 +3738,62 @@
   }
 },
 {
+  "pk": 47, 
+  "model": "biosensorsdb.award", 
+  "fields": {
+    "name": "Best Wiki, Latin America"
+  }
+},
+{
+  "pk": 48, 
+  "model": "biosensorsdb.award", 
+  "fields": {
+    "name": "Best Model, Latin America"
+  }
+},
+{
+  "pk": 49, 
+  "model": "biosensorsdb.award", 
+  "fields": {
+    "name": "Best Wiki, Europe"
+  }
+},
+{
+  "pk": 50, 
+  "model": "biosensorsdb.award", 
+  "fields": {
+    "name": "Best Parts Collection, Asia"
+  }
+},
+{
+  "pk": 51, 
+  "model": "biosensorsdb.award", 
+  "fields": {
+    "name": "Best New Biobrick Part, Natural, Asia"
+  }
+},
+{
+  "pk": 52, 
+  "model": "biosensorsdb.award", 
+  "fields": {
+    "name": "Best BioBrick Measurement Approach, Asia"
+  }
+},
+{
+  "pk": 53, 
+  "model": "biosensorsdb.award", 
+  "fields": {
+    "name": "Best Human Practices Advance, Asia"
+  }
+},
+{
+  "pk": 54, 
+  "model": "biosensorsdb.award", 
+  "fields": {
+    "name": "Best Poster, Asia"
+  }
+},
+{
   "pk": 1, 
   "model": "biosensorsdb.project", 
   "fields": {
@@ -3742,9 +3812,16 @@
     ], 
     "abstract": "Outbreaks of foodborne illnesses are a growing problem for food safety and public health.  Whether in your water, salad or steak, pathogenic E. coli causes upwards of 250,000 illnesses every year. To solve this problem, iGEM Calgary is developing the FerriTALE to detect harmful E. coli. It uses engineered proteins that detect and report the presence of dangerous E. coli in a sample.  The detector, TALE, binds to genomic markers specific to dangerous E. coli. Next, our TALEs are attached to the scaffold and reporter, Ferritin, that rapidly alerts the user to the presence of E. coli through a visible color change. We have integrated these proteins into a handheld device, similar to a home pregnancy test, that tells the user if dangerous E. coli is present. Moving forward, the FerriTALE can be tailored to detect other pathogens as the basis of a powerful new detection platform.", 
     "team": 1, 
-    "results": [], 
+    "results": [
+      9, 
+      10, 
+      17
+    ], 
     "application": 1, 
-    "awards": [], 
+    "awards": [
+      23, 
+      12
+    ], 
     "year": 2013, 
     "is_biosensor": true
   }
@@ -3767,9 +3844,15 @@
     ], 
     "abstract": "We are testing new weapons for the global war against Mycobacterium tuberculosis (MTb), a pathogen that infects nearly 2 billion people. Our 4 synergistic projects aim to help in the prevention, diagnosis, and treatment of tuberculosis. 1) We are reproducing an essential MTb metabolic pathway in E. coli, where it can be easily and safely targeted in a drug screen. 2) We are building a phage-based biosensor to allow the rapid diagnosis specifically drug-resistant MTb strains. 3) We are constructing a mycobacteriophage to detect and counterselect drug-resistant Mtb in the environment. 4) We are programming E. coli to follow MTb into human macrophages and saturate it with bacteriolytic enzymes. We want to vanquish tuberculosis and build a TB-free world.", 
     "team": 4, 
-    "results": [], 
+    "results": [
+      9, 
+      10, 
+      13
+    ], 
     "application": 2, 
-    "awards": [], 
+    "awards": [
+      32
+    ], 
     "year": 2013, 
     "is_biosensor": true
   }
@@ -5082,7 +5165,9 @@
     ], 
     "abstract": "Our goal is to design a wastewater treatment system which can absorb the pollutant efficiently while transform it into luminous energy. We plan to use E.coli to design a bacterium that can digest the nitrite and ammonium in its interior using the disposal system from the anammox. Through the introduction of luciferase, the energy can be transformed into bioluminescence. Therefore, we named it Shining Sanctifier. This new star in synthetic biology will overcome the traditional issues and be applied to the sewage treatment system on a large scale while it can also be made into illuminating system in the future.", 
     "team": 37, 
-    "results": [], 
+    "results": [
+      12
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5108,7 +5193,10 @@
     ], 
     "abstract": "As we know, antibiotics are widely used in modern industry to prevent the infection of cow breasts. However, the residual of antibiotics and other components, such as Cr (VI) which is widely used in the recycle of proteins from leather, will endanger the health of customers. Therefore, it is necessary to find solution to identify these harmful chemicals, but the method of timely detection of harmful chemicals in products still remains unsolved. \r\n    To solve this problem, our sensor has been divided into three, respectively, of hexavalent chromium, tetracycline and \u03b2-lactam there is a response, for each sensor, we are all assembled in a downstream of the amplification block (amplifier) and the control block (controller), the output signal to be amplified, by adjusting the concentration of IPTG to achieve the adjustment of magnification. Amplifier by the T7 RNA polymerase gene and T7 promoter composition control block is through the downstream of the T7 promoter plus lacO and the addition of regular expression lacI, by adjusting the concentration of IPTG, lacO then adjust the boot situation achieved, the final response module for the green fluorescent protein.\r\n    In order to achieve real-time detection, we also made a biochip which provided a reaction room for both engineering bacteria and samples. Now we are able to detect all these three harmful chemicals with a hand-held electronic equipment made by ourselves.", 
     "team": 52, 
-    "results": [], 
+    "results": [
+      9, 
+      10
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5131,7 +5219,10 @@
     ], 
     "abstract": "This summer, we focus on the detection of a group of antibiotics called aminoglycosides (for example the Kanamycin we used as a selection marker). The problem of aminoglycosides are more serious compared with other kinds of antibiotics,because they are difficult to be break down and tested, and they are most commonly used in the research, medical treatment, industry and agriculture. Even under the high temperature they are not easy to be inactivated. Moreover, they will maintain in the blood for weeks, much more than other kinds of antibiotics such as penicillin. The accumulation of aminoglycoside will also lead to ototoxicity and nephrotoxicity.\r\nBy studying the regulation of resistance, we have found the natural parts which are sensitive to the antibiotics. With the quantitative methods, we are measuring the response curve of them. Then the optimized devices will be constructed for aminoglycosides detection.\r\nMeanwhile, we are also studying on the molecular dynamics and mechanisms of regulation of resistance. By modifying and estimating one riboswitch conserved in plenty of aminoglycoside acetyl transferases and aminoglycoside adenyl transferases, we are trying to find a novel principle to design and develop the bicistron-based translation initiation elements which can function more precisely and reliably.", 
     "team": 26, 
-    "results": [], 
+    "results": [
+      9, 
+      10
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5154,7 +5245,9 @@
     ], 
     "abstract": "pH based bacterial systems, wherein response is dependent on the pH of the medium have been explored rarely in iGEM (NYMU-Taipei(2008), Wisconsin-Madison(2010) others). pH based sensor systems have potential use in bio-remediation, gut-microbiota engineering, fermentation et cetera.\r\npH based systems present various other challenges with respect to biobrick usability, pH dependence of reporters and lack of characterization.Our aim is to create a simple pH \"bacterial\" meter, not unlike a pH strip used in chemistry. We hope for this to be a template for future projects and applications", 
     "team": 53, 
-    "results": [], 
+    "results": [
+      12
+    ], 
     "application": 4, 
     "awards": [], 
     "year": 2013, 
@@ -5179,7 +5272,9 @@
     ], 
     "abstract": "High levels of aflatoxin contamination of foods are found in many developing countries around the world. Aflatoxins are known to be mutagenic and carcinogenic, therefore human exposure to aflatoxin would lead to an increased risk of hepatocellular carcinoma (liver cancer). One in every four liver cancers in Indonesia are induced by aflatoxin B1 exposure. Nowadays, aflatoxin exposure is not only a serious problem for human health, but it could also become a serious threat in terms of food security issue of a country. ITB-Indonesia team for iGEM 2013 focuses on designing a whole cell biosensor for aflatoxin B1 detection in foods. The biosensor uses Escherichia coli as the chassis to build a genetic circuit using SOS response system to detect DNA damage caused by aflatoxin B1-oxide attack. The SOS response promoter is followed by a reporter gene coding a chromoprotein, therefore the concentration of aflatoxin B1 in food samples could be easily detected by the color change of the bacteria. For the ease of usage, we will design a syringe shaped device with our whole cell biosensor in it. This device would allow aflatoxin B1 to enter the device, but would not permit the cells to leave the device.", 
     "team": 54, 
-    "results": [], 
+    "results": [
+      11
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5202,7 +5297,9 @@
     ], 
     "abstract": "Bacterial infection is the invasion of the body by pathogenic bacteria, which causes pneumonia, urethral infection, bacteremia and other symptoms in hospital and community. The efficiency of traditional detection and diagnostic approaches is impeded by the time-consuming laboratory procedures, yet many of which grow poorly in bacterial cultures. All these limitations call for a new rapid and direct bacterial identification method to improve patient management and antimicrobial therapy. Quorum sensing is a type of bacterial cell-cell communication correlates with the population size. Many bacteria have one or several species-specific quorum sensing molecules released in different growth state and environment. Quorum sensing signals are shown to be involved in many physiological functions, including virulence, biofilm formation and drug-resistance. We aim to establish a novel bacterial identification method in clinical samples based on the quorum sensing profiles.", 
     "team": 56, 
-    "results": [], 
+    "results": [
+      10
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5257,9 +5354,15 @@
     ], 
     "abstract": "Monitoring aromatic compounds in the environment remains a substantial challenge today. Noting the power of biosensors for quick and convenient testing, Peking iGEM has developed a functionally comprehensive biosensor toolkit to profile aromatics in the environment. \r\n\r\nTranscriptional regulators that each senses a specific class of aromatics were first bioinformatically determined; they were then utilized to build a comprehensive set of biosensor circuits. Characterization on the detection profiles of individual biosensors and their orthogonality/crosstalk prove that these biosensors are really high-performance to profile aromatics in water. \r\n\r\nMoreover, for the ease of practical applications, two types of genetic devices were also developed as plug-ins for biosensors: \"Adaptors\", a set of conceptually novel devices to convert undetectable chemicals into detectable aromatics, and \"Band-pass Filter\", a \"concentration filter\" that allows the detection of analyte concentration within a specific range. \r\n\r\nWe expect that these novel biosensors, together with the plug-in devices, will serve as intriguing synthetic biological tools for diverse practical applications.", 
     "team": 58, 
-    "results": [], 
+    "results": [
+      9, 
+      10
+    ], 
     "application": 2, 
-    "awards": [], 
+    "awards": [
+      51, 
+      50
+    ], 
     "year": 2013, 
     "is_biosensor": true
   }
@@ -5280,7 +5383,9 @@
     ], 
     "abstract": "Synthetic organophosphorus (OP) compounds have been used as pesticides, petroleum additive and warfare agents, which is a highly toxic contaminant to agro-environment and food security. Parathion is a typical representative of organophosphorus pesticides. This year, our goal is to construct a p-Nitrophenol sensor in E coli., which is the degradation product of parathion, in order to reflect the existence of parathion. Considering the biosafety problem after its release, we designed a suicide system in which the lethal genes are only triggered by declining p-Nitrophenol concentration. This will enable the bacteria to commit suicide when p-Nitrophnol is sufficiently degraded", 
     "team": 59, 
-    "results": [], 
+    "results": [
+      10
+    ], 
     "application": 1, 
     "awards": [], 
     "year": 2013, 
@@ -5303,7 +5408,9 @@
     ], 
     "abstract": "Synthetic multicellular system has always been one of the most interesting parts of syn-bio.In the fundamental researches, especially the imitations of the whole developing procedure from a single cell to a self-organized multicellular system, many pervious iGEM teams have made plenty of explorations.\r\n\r\nHowever, there haven\u2019t been comprehensive study into the imitations of sex differentiation, gametogenesis, and sexual reproduction. In our project,we intend to construct two groups of differentiated E.coli,one imitates the male multicellular organism ,the other for the female(called G+ cells and G- cells respectively).When cultured separately, the male/female multicellular system gets bigger and matures, and cells will differentiate into gametes,which cannot divide any more but are capable of gene transfer. After that, you mix this two liquid cultures,the male gametes will recognize the female cells and begin to transfer modified F plasmids into female gametes through sex pili. The conjugation makes female gametes return to the state of un-differentiation(called G cells),which means they can divide again but are not sexually determined.Then,after several cell divisions,one G cell will differentiate into a G+ or G-,which, like zygote , can grow into next generation of the multicellular system maybe containing genes from both male and female gametes.\r\n\r\nWe also have another minor project aimed at detecting different concentrations of nitrate & nitrite in water,especially in drinking water. Generally,we take the advantage of natural or mutanted promoters with different sensitivities, make use of sensitivity tuners to optimize the results,and exploit different enzymes from the same pathway to generate different visible colors.", 
     "team": 60, 
-    "results": [], 
+    "results": [
+      11
+    ], 
     "application": 1, 
     "awards": [], 
     "year": 2013, 
@@ -5326,9 +5433,15 @@
     ], 
     "abstract": "The picturesque city of Sydney is marred by industrial efflux of chlorinated hydrocarbons into the aquifers around Botany Bay. 1,2-dichloroethane (DCA) is toxic and a suspected carcinogenic agent, and one of the more soluble and mobile contaminants. Conventional DCA treatment is both costly and time-consuming, involving pumping and heat-stripping groundwater. We propose a biological alternative which may be cheaper and more effective. There are strains of bacteria able to degrade low levels of organochlorine compounds in selective conditions. Polaromonas JS666 and Xanthobacter autotrophicus GJ10 contain two pathways of particular interest. Our goal is to construct our own versions of two metabolic pathways of DCA biodegradation for comparison in a BioBrick-compatible vector, and characterise their effectiveness in utilising DCA as a sole carbon source for growth. We hope to create friendly strains of bacteria capable of removing DCA at greatly reduced cost and effort, and reduce the environmental impact of industry.", 
     "team": 61, 
-    "results": [], 
+    "results": [
+      9, 
+      12
+    ], 
     "application": 2, 
-    "awards": [], 
+    "awards": [
+      52, 
+      53
+    ], 
     "year": 2013, 
     "is_biosensor": false
   }
@@ -5349,9 +5462,14 @@
     ], 
     "abstract": "Biosynthesized alkanes are promising candidates for drop-in replacement of petroleum. We constructed and characterized a device named Alk-Sensor, which can sensitively detect a wide range of alkanes and generate certain response. Alk-Sensor is composed of ALKR protein\u2014\u2014a transcriptional regulatory protein, and promoter alkM. ALKR recognizes alkanes and their interaction triggered a conformation change of ALKR dimers which isomerizes the promoter-RNAP complex and led to activate the downstream genes of PalkM.\r\n\r\nBased on Alk-Sensor, we built a relationship between productivity of alkanes with strain\u2019s growth rate under certain environmental stress. Starting from this relationship we further designed a novel selection method to select out the engineered strains with highest productivity of alkanes. We demonstrated that this novel selection method could enable us to select out the optimized strains effectively and efficiently.", 
     "team": 62, 
-    "results": [], 
+    "results": [
+      9, 
+      10
+    ], 
     "application": 2, 
-    "awards": [], 
+    "awards": [
+      54
+    ], 
     "year": 2013, 
     "is_biosensor": true
   }
@@ -5373,7 +5491,9 @@
     ], 
     "abstract": "Legionella pneumophila is the cause of the Legionnaires' disease which is a type of pneumonia. The bacterium is found in warm water environments, particularly in artificial water supply systems such as air conditioning systems and cooling towers. The enfection occures by inhalation by small droplets of contaminated water. Our aim, as the team \u201cBaskent_Meds\u201d, is developing bacteria which can recognize Legionella pneumophila specifically at species level by legionella quorum sensing, and respond by producing anti-Legionella peptide which is produced by some Staphylococcus strains. Quarum means \u201cminimum\u201d. Legionella pneumophila should sense the minimum amount of cells around to colonize in the environment and express its virulence. So our modified E. coli may sense the presence of Legionella pneumophila in any contaminated surface and kill it.", 
     "team": 63, 
-    "results": [], 
+    "results": [
+      12
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5454,7 +5574,10 @@
     ], 
     "abstract": "Many regulatory agencies such as the Department of Agriculture and the Environmental Protection Agency have specific standards for pathogen concentrations in sample materials, including \u201czero-tolerance\u201d for some foodborne pathogens. However, current detection methods for these disease-causing bacteria suffer from one or more of the following limitations: 1) requiring sample enrichment, 2) inability of low-level detection, 3) indiscrimination between viable and non-viable cells, 4) small sample volume capacity, 5) tedious procedures, and 6) high assay cost. Our Universal Self-Amplified (USA) Biosensor uses a genetically modified detection bacteria to solve many of the aforementioned issues. The engineered USA bacteria will recognize a target chemical produced by the pathogen of study, which will trigger a cascade of genes to both amplify the chemical signal and produce a visible alert to the pathogen\u2019s presence. The USA pathogen detection mechanism strives for rapidity, economy, and simplicity.", 
     "team": 65, 
-    "results": [], 
+    "results": [
+      9, 
+      11
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5479,7 +5602,9 @@
     ], 
     "abstract": "Heavy metal contaminants pose a serious health threat around the world, especially in locations with poor irrigation. Cadmium, in particular, is a known carcinogen that affects the cardiovascular, gastrointestinal, and respiratory systems. The Agency for Toxic Substances and Disease Registry compiled a Priority List of toxic substances, on which Cadmium was seventh. We combined the Green Fluorescent Protein coding region with a Cadmium Sensitive Promoter to create our detector, which provides a simple and inexpensive test for the presence of Cadmium in water supplies. We will incorporate sensitivity tuners to decrease the detection threshold, and we will use mutagenic PCR on both the promoter and the entire detector to increase its sensitivity. Proper use of this BioBrick could result in early detection of cadmium polluted water and potentially prevent deaths worldwide.", 
     "team": 9, 
-    "results": [], 
+    "results": [
+      12
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5503,7 +5628,9 @@
     ], 
     "abstract": "Our product is a bioengineered sensor, which will be able to detect levels of methanol above 2% in common alcoholic drinks. This will allow government to make high-throughput screening of ethanol drinks tainted will methanol. The device will be used as an initial low cost and portable test. The construction is based on the pAOX promoter, which is activated by methanol and repressed by ethanol. Several parts of the device must be tuned for proper function in Pichia pastoris; pAOX promoter, red fluorescent protein (RFP), Mxr1p transcriptional factor and FLD promoter.\r\nSince we aim to develop a product ready for the consumer to use, we plan to develop a plastic container for the lyophilized yeast, printed by 3D printer, that will help perform the test and will also contain the yeast. After use, the container will be able to apply bleach to eliminate the yeast.", 
     "team": 66, 
-    "results": [], 
+    "results": [
+      11
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5529,7 +5656,11 @@
     ], 
     "abstract": "Death by heart diseases is very common worldwide, being Acute Coronary Syndrome (ACS) its main cause. This fact is deeply related to late diagnosis, which is usually made after the cardiac event had already occurred. We, from UFMG team, decided to explore this problem building a system capable of providing a precocious diagnosis for ACS based in 3 biomarkers: Brain Natriuretic Peptide (BNP),  Trimethylamine-N-Oxide (TMAO) and Ischemia Modified Albumin (IMA).\r\nThe main goal is to detect each of these biomarkers using our engineered E. coli by integrating the signals CFP, YFP and RFP produced when BNP, IMA and TMAO, respectively, are present in a sample of patient serum. This diagnosis is based on color intensity of the fluorescent proteins. So, we can establish the presence or absence and severity of ACS disease and predict earlier a myocardial event, thus providing information for fast treatment.\"", 
     "team": 67, 
-    "results": [], 
+    "results": [
+      9, 
+      16, 
+      11
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5554,9 +5685,14 @@
     ], 
     "abstract": "Glucocorticoids are hormones present in mammals that undergo changes in concentrations when the animal is under stressful stimuli. These hormones can be measured in blood plasma, urine, saliva and hair. Chemical methods are used to measure these hormones for veterinary and agricultural use, but these methods require expensive equipment and a capacitated technician which makes it uncomfortable and useless in the field. Our aim is to create a glucocorticoid sensor that is able to discern between basal levels and stress levels of glucocorticoid hormones in a sample with an easily recognizable signal, such as color, to allow the sensor to be used in the field, household or the laboratory.", 
     "team": 68, 
-    "results": [], 
+    "results": [
+      11
+    ], 
     "application": 2, 
-    "awards": [], 
+    "awards": [
+      48, 
+      47
+    ], 
     "year": 2013, 
     "is_biosensor": true
   }
@@ -5577,7 +5713,11 @@
     ], 
     "abstract": "Our project is focused on developing a biosensor specific for certain water pollutants, with a modular and scalable approach. This approach would make it easy to adapt the response for the detection of different substances. Until now, there have been some experiences of pollutant biosensing in iGEM, but most of them rely on expensive and specific equipment, or qualified people to interpret the results. Being aware that most of the populations affected by consumption of contaminated groundwater don\u2019t have scientific or technical training, we intend the device to be cheap and easily distributed. We also have designed it in a way that any user with minimal training (using an image-based instructions) could easily determine the presence and level of the contaminant on drinking water. The project will focus on measuring a primary pollutant: arsenic. However, its modular and scalable design provides an easy way to measure various contaminants such as nitrate/nitrite, lead, hydrocarbons, etcetera. At the end of this project we expect to have a working prototype of the device plus a control field measurement.", 
     "team": 69, 
-    "results": [], 
+    "results": [
+      9, 
+      10, 
+      16
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5600,7 +5740,9 @@
     ], 
     "abstract": "This year Biosint Mexico team will be developed a smart probiotic. Along the competition have been present several projects about probiotics, nevertheless the main disadvantage was that most of them were not being created in a lactobacillus strain. Because of this we constructed a Lactobacillus platform for others iGEM teams. Continuing with the idea of the smart probiotic system we include a sensor for xenobiotic substances that could detect and decrease intoxications by pesticides. Also the team implemented a kill switch for safety issues. This project contributes to resolve one of the Mexican food and health problems.", 
     "team": 70, 
-    "results": [], 
+    "results": [
+      12
+    ], 
     "application": 4, 
     "awards": [], 
     "year": 2013, 
@@ -5624,7 +5766,9 @@
     ], 
     "abstract": "This year Warsaw iGEM team is presenting to you FluoSafe - a bacterial sensor for acrylamide detection. As many of you know acrylamide is usually present in laboratories. But what is the significance of this organic compound really? Well, it is a neurotoxin and its carcinogenic activity has been widely proven.\r\nWe plan to implement bimolecular fluorescence complementation (BiFC) to our system. In order to do this we will make a fusion of \u03b1 and \u03b2 hemoglobin subunits with complementary parts of split sfGFP ( an improved superfolder green fluorescent protein derivative, which is often used as a marker in molecular biology). When there is no acrylamide in the environment both chains of hemoglobin can interact and bring within proximity the split parts of sfGFP, leading to reconstruction of three dimensional structure of sfGFP and resulting in green fluorescence.", 
     "team": 71, 
-    "results": [], 
+    "results": [
+      10
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5649,7 +5793,9 @@
     ], 
     "abstract": "Nickel is one of the most widespread heavy metals in the ecosystem, and it is essential for many organisms, from bacteria to higher forms of life. However, as all the heavy metals, even a small amount of Nickel higher than the essential dose could be toxic, leading to various noxious effects [1-2]: then the need to remove its excess from many substrates. Nowadays bacteria-mediated bioremediation from inorganic substances seems\tto be a considerably relevant frontier in microbic biotechnologies [3]. Our project aims to develop a living system, in an easy monitorable bacterial platform, who would work as a Nickel detector and a Nickel remediation system. The whole system is based on genetic parts from the pathogen Helicobacter pylori, whose evolution led to a stronger reliance on Nickel ions for host interaction and pathogenesis. Sensing relies on nickel regulator NikR from H. pylori (HpNikR): though homolog of E.coli NikR, it has a stronger dependance on Nickel ions and a wider range of regulated elements, being a rare case of pleiotropic regulator in bacteria. As HpNikR could contemporaneously activate and repress gene expression [4-5-6], we thought of developing a synthetic gene cluster under HpNikR - regulated promoters. With a double regulation, one of the promoters being activated while the other being repressed, the system allows to follow up Nickel sensing as a fluorescence signal from fluorescent proteins. Thus, adding bacteria to a nickel containing medium results in switching off a basal occuring green fluorescence and in switching on a red fluorescence signal.", 
     "team": 72, 
-    "results": [], 
+    "results": [
+      11
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5672,7 +5818,9 @@
     ], 
     "abstract": "Mycotoxins produced by mould fungus are present in our daily life and are harmful for humans as well as for animals. The danger of contamination of gain and other natural products has fatal consequences for the economy and the supply of whole nations. The mycotoxins which are permanently formed by the fungus, can be used as biomarkers to detect contamination. We want to develop a handy device which allows an easy and reliable detection of mycotoxins. To achieve this goal our team uses various methods from the fields of synthetic biology, electrical engineering and information processing. The detection system relies on E.coli with modified aspartate receptors (TAR) which interact with specific mycotoxins. If these are present in the reviewed sample they will bind to the receptor and induce a conformational change and thereby generates a measurable FRET-beacon by bringing two flourophores in close distance to each other. The modified E.coli will be embedded in interchangeable capsules. Together with a handheld-device they will guarantee that measurements can be done quickly, easy to operate and secure. The data will be transferred from the handheld system to an Android smartphone app which will be able to analyze, illustrate and store the test results for the user.", 
     "team": 73, 
-    "results": [], 
+    "results": [
+      11
+    ], 
     "application": 3, 
     "awards": [], 
     "year": 2013, 
@@ -5697,7 +5845,9 @@
     ], 
     "abstract": "PCBs (Polychlorobiphenyls) are synthetic chemicals that were widely used in electrical equipments during the late 20th century. These hazardous organic compounds are extraordinary stable and not readily biodegradable. Thus they remain for many years in nature and belong to family of persistent pollutants. PCBs accumulate in animal fatty tissues due to their lipophilicity, starting from aquatic organisms and going further into the higher level of food chain. Indeed, they can be found in high concentrations in human adipose tissues. As most PCBs are probably carcinogenic (class 2A) and some are recognized endocrine disruptors, they lead to a series of important health issues. especially in France where a study revealed that higher levels of PCB in French people adipose tissues were observed than people from other parts of the world.\r\nAlthough PCBs are man-made and have no natural equivalents, some bacterial communities have evolved and developed the capacity to degrade PCBs. Degradation of highly chlorinated PCBs begins with an anaerobic reductive dechlorination that lowers the number of chlorine atoms carried by the PCB molecules. PCBs with few chlorine atoms can then be degraded via the biphenyl degradation pathway.\r\n\r\nOur project aims at constructing an Escherichia coli strain capable of degrading highly chlorinated PCBs. This will be achieved by introducing in an E. coli strains genes involved in the degradation of PCBs from the three most efficient PCB degrading strains described so far: Pseudomonas pseudoalcaligenes, Burkholderia Xenovorans and Rhodoccocus jostii. Because the first degradation steps are anaerobic and later steps are aerobic, we want to introduce an oxygen based regulation of the expression of the different genes implicated in both aerobic and anaerobic degradation steps. Finally, we are also developing a sensor system to detect PCBs in the environment.", 
     "team": 74, 
-    "results": [], 
+    "results": [
+      10
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -5722,7 +5872,9 @@
     ], 
     "abstract": "Like the Beagle hunting dog chasing hares, our Micro-beagle is a biosensor designed to hunt down pathogens. Micro-beagle utilises the Cpx pathway and GFP, which, when it fluoresces can be seen with the naked eye. \r\nIn order to achieve this we will have designed our biosensor to physically bind to antigens or particles. This binding will induce membrane stress activating the Cpx pathway. By placing the GFP gene downstream of the Cpx promoter, GFP protein will be produced following membrane stress consequently causing the cells tol fluoresce when the pathogen is present in the solution. \r\nAs a proof of concept, we will be using silica beads as target analogue for pathogens. In order to bind to the beads will be expressing a silica binding peptide on the surface of the cells using Ice Nucleation Protein (INP). INP allows expression of any gene placed at its C terminus on the cell surface. The theory is that the silica binding peptide sequence can be easily swapped for a sequence of any antigen binding moiety and therefore enable us to detect any pathogen simply, quickly and cheaply. \r\nUpon completion of our project our suggested initial use for the Micro-Beagle will be a low cost easy to use test used to assess the efficacy of water treatment systems. However as stated earlier the detection system can easily be modified to allow any other large particles whose identification could be of value ", 
     "team": 75, 
-    "results": [], 
+    "results": [
+      12
+    ], 
     "application": 2, 
     "awards": [], 
     "year": 2013, 
@@ -7200,7 +7352,7 @@
   "fields": {
     "category": 3, 
     "inputs": [
-      2
+      1
     ], 
     "wiki_url": "http://2012.igem.org/Team:Arizona_State", 
     "title": "Crisys", 
@@ -13479,42 +13631,6 @@
   }
 },
 {
-  "pk": 421, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 184, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 76
-  }
-},
-{
-  "pk": 422, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 182, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 76
-  }
-},
-{
-  "pk": 423, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 183, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 76
-  }
-},
-{
   "pk": 424, 
   "model": "taggit.taggeditem", 
   "fields": {
@@ -13608,282 +13724,6 @@
       "project"
     ], 
     "object_id": 67
-  }
-},
-{
-  "pk": 432, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 1, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 1
-  }
-},
-{
-  "pk": 433, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 3, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 1
-  }
-},
-{
-  "pk": 434, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 18, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 1
-  }
-},
-{
-  "pk": 435, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 19, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 1
-  }
-},
-{
-  "pk": 436, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 20, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 1
-  }
-},
-{
-  "pk": 437, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 21, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 1
-  }
-},
-{
-  "pk": 438, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 22, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 1
-  }
-},
-{
-  "pk": 439, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 193, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 72
-  }
-},
-{
-  "pk": 440, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 194, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 72
-  }
-},
-{
-  "pk": 441, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 195, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 72
-  }
-},
-{
-  "pk": 442, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 196, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 78
-  }
-},
-{
-  "pk": 443, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 197, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 78
-  }
-},
-{
-  "pk": 444, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 198, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 78
-  }
-},
-{
-  "pk": 450, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 205, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 62
-  }
-},
-{
-  "pk": 451, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 8, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 4
-  }
-},
-{
-  "pk": 452, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 23, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 4
-  }
-},
-{
-  "pk": 453, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 207, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 4
-  }
-},
-{
-  "pk": 454, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 206, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 4
-  }
-},
-{
-  "pk": 455, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 7, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 4
-  }
-},
-{
-  "pk": 464, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 214, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 80
-  }
-},
-{
-  "pk": 465, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 215, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 80
-  }
-},
-{
-  "pk": 469, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 218, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 58
-  }
-},
-{
-  "pk": 470, 
-  "model": "taggit.taggeditem", 
-  "fields": {
-    "tag": 219, 
-    "content_type": [
-      "biosensorsdb", 
-      "project"
-    ], 
-    "object_id": 58
   }
 },
 {
@@ -16104,6 +15944,318 @@
       "project"
     ], 
     "object_id": 184
+  }
+},
+{
+  "pk": 697, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 218, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 58
+  }
+},
+{
+  "pk": 698, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 219, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 58
+  }
+},
+{
+  "pk": 699, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 214, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 80
+  }
+},
+{
+  "pk": 700, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 215, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 80
+  }
+},
+{
+  "pk": 706, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 205, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 62
+  }
+},
+{
+  "pk": 707, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 196, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 78
+  }
+},
+{
+  "pk": 708, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 197, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 78
+  }
+},
+{
+  "pk": 709, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 198, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 78
+  }
+},
+{
+  "pk": 710, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 193, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 72
+  }
+},
+{
+  "pk": 711, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 194, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 72
+  }
+},
+{
+  "pk": 712, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 195, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 72
+  }
+},
+{
+  "pk": 713, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 1, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 1
+  }
+},
+{
+  "pk": 714, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 3, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 1
+  }
+},
+{
+  "pk": 715, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 18, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 1
+  }
+},
+{
+  "pk": 716, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 19, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 1
+  }
+},
+{
+  "pk": 717, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 20, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 1
+  }
+},
+{
+  "pk": 718, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 21, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 1
+  }
+},
+{
+  "pk": 719, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 22, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 1
+  }
+},
+{
+  "pk": 720, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 184, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 76
+  }
+},
+{
+  "pk": 721, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 182, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 76
+  }
+},
+{
+  "pk": 722, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 183, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 76
+  }
+},
+{
+  "pk": 723, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 8, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 4
+  }
+},
+{
+  "pk": 724, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 23, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 4
+  }
+},
+{
+  "pk": 725, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 207, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 4
+  }
+},
+{
+  "pk": 726, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 206, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 4
+  }
+},
+{
+  "pk": 727, 
+  "model": "taggit.taggeditem", 
+  "fields": {
+    "tag": 7, 
+    "content_type": [
+      "biosensorsdb", 
+      "project"
+    ], 
+    "object_id": 4
   }
 }
 ]
