@@ -26,6 +26,18 @@ class ProjectAdmin(admin.ModelAdmin):
     }
   }
 
+  list_filter = [
+    'is_biosensor',
+    'category',
+    'track',
+    'application',
+    'results',
+    'awards',
+    'inputs',
+    'outputs',
+    'tags',
+  ]
+
 admin.site.register(biosensorsdb.models.Team)
 admin.site.register(biosensorsdb.models.Category)
 admin.site.register(biosensorsdb.models.SensorInput)

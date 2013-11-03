@@ -29,3 +29,23 @@
   font-size: 16px;
   padding: 8px;
 }
+
+#logo {
+  background-image: url('../img/logo.png');
+  width: 120px;
+  height: 87px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+}
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Lily Script One', sans-serif;
+  font-size: 45px;
+}
+
+#blah {
+  position: relative;
+  top: -7px;
+}
