@@ -4,7 +4,7 @@ iGEM Biosensors DB
 The iGEM Biosensors DB (now known as "SensiGEM" and hosed publicly at
 [www.sensigem.org](http://www.sensigem.org/)) catalogues over 220 biosensors
 developed by iGEM teams, including sensor inputs, outputs, applications,
-category, and awards earned. Both the source and biosensor data are made
+category, and awards earned. Both the source code and biosensor data are made
 publicly available under the MIT license, meaning that in addition to using
 [www.sensigem.org](http://www.sensigem.org/), teams may host their own versions
 of the database.
