@@ -1,6 +1,17 @@
 iGEM Biosensors DB
 ==================
 
+The iGEM Biosensors DB (now known as "SensiGEM" and hosed publicly at
+[www.sensigem.org](http://www.sensigem.org/)) catalogues over 220 biosensors
+developed by iGEM teams, including sensor inputs, outputs, applications,
+category, and awards earned. Both the source and biosensor data are made
+publicly available under the MIT license, meaning that in addition to using
+[www.sensigem.org](http://www.sensigem.org/), teams may host their own versions
+of the database.
+
+Installation
+------------
+
 1. Create Python 2 virtual environment for project.
 
         mkdir ~/.virtualenvs
@@ -86,3 +97,9 @@ iGEM Biosensors DB
         # bug in the package before dumpdata will work, as per
         # https://github.com/alex/django-taggit/issues/155#issuecomment-24561900.
         python2 manage.py dumpdata --indent=2 --natural biosensorsdb taggit > backups/biosensors_data.json
+
+        # Alternatively, to backup the database as a whole (including user
+        # accounts -- this means you must be cautious sharing your backup, as
+        # it will include user credentials), run this command if you're using
+        # PostgreSQL:
+        pg_dump -U micand igembiosensors | bzip2 > backups/db.sql.bz2
